@@ -1,0 +1,22 @@
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background: #efefef;
+}
+
+.navContainer {
+  width: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 18px;
+}
