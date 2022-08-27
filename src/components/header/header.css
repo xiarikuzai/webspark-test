@@ -1,9 +1,0 @@
-.banner {
-  position: relative;
-}
-.parallax {
-  width: 100vw;
-  height: 90vh;
-  object-fit: cover;
-  position: fixed;
-}
