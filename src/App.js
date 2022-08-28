@@ -10,6 +10,7 @@ import leave from './images/slider2.png';
 import prawns from './images/slider3.png';
 import lettuce from './images/slider4.png';
 import tomato from './images/slider5.png';
+import News from './components/news/News';
 
 function App() {
   return (
@@ -52,11 +53,7 @@ function App() {
         </Swiper>
       </div>
       <div className="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Quos deserunt quo minus ipsum, non ut officiis
-        maiores adipisci rem tempora, delectus eveniet omnis
-        reprehenderit natus voluptatibus repellendus
-        corporis quasi minima.
+        <News />
       </div>
     </div>
   );

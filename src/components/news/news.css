@@ -1,0 +1,12 @@
+ul {
+  list-style: none;
+}
+
+.news-header {
+  padding: 10px 0 0 30px;
+  font-weight: bold;
+}
+
+.news-items::first-line {
+  color: darkred;
+}
