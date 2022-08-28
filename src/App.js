@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import './app.css';
 import { Navigation } from 'swiper';
+import banner from './images/banner.jpg';
 import egg from './images/slider1.png';
 import leave from './images/slider2.png';
 import prawns from './images/slider3.png';
@@ -15,7 +16,11 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="parallax-container">
-        <div className="parallax"></div>
+        <img
+          src={banner}
+          alt="banner-img"
+          className="parallax"
+        ></img>
       </div>
       <div className="carousel">
         <Swiper
@@ -26,23 +31,32 @@ function App() {
         >
           <SwiperSlide>
             <img src={egg} alt="egg-img"></img>
+            <div className="overlay">Eggs</div>
           </SwiperSlide>
           <SwiperSlide>
-            {' '}
             <img src={leave} alt="leave-img"></img>
+            <div className="overlay">Leaves</div>
           </SwiperSlide>
           <SwiperSlide>
-            {' '}
             <img src={prawns} alt="prawn-img"></img>
+            <div className="overlay">Prawns</div>
           </SwiperSlide>
           <SwiperSlide>
-            {' '}
             <img src={lettuce} alt="lettuce-img"></img>
+            <div className="overlay">Lettuce</div>
           </SwiperSlide>
           <SwiperSlide>
             <img src={tomato} alt="tomato-img"></img>
+            <div className="overlay">Tomato</div>
           </SwiperSlide>
         </Swiper>
+      </div>
+      <div className="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Quos deserunt quo minus ipsum, non ut officiis
+        maiores adipisci rem tempora, delectus eveniet omnis
+        reprehenderit natus voluptatibus repellendus
+        corporis quasi minima.
       </div>
     </div>
   );
